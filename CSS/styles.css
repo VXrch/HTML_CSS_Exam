@@ -1,0 +1,125 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-menu-container {
+    background-color: #00445E;
+    height: 142px;
+}
+
+.bottom-menu-container {
+    height: 800px;
+    background-image: url(image2.svg);
+    background-repeat: no-repeat;
+}
+
+.middle-menu-container {
+    height: 100px;
+    background-color: #00445E;
+    padding-top: 29px;
+    padding-bottom: 13px;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.container-fluid {
+    color: #FFF;
+    padding: 0px;
+}
+
+
+
+.column-number-one {
+    background-color: none;
+    padding: 0px;
+}
+
+.column-number-two {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0px;
+}
+
+.col-with-image-and-text {
+    padding: 0px;
+    margin: 0px;
+}
+
+.column-with-logo {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 0px;
+}
+
+.column-with-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: bottom;
+    padding: 0px;
+}
+
+.text-anti-terrorist-center {
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 166.188%;
+}
+
+.buttons-menu {
+    padding: 0px;
+    padding-left: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.but-in-menu {
+    color: var(--blue, #9ECEFA);
+    margin-top: 25px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 166.188%;
+}
+
+.search-container {
+    margin-top: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+.search-input {
+    background-color: #276f98;
+    padding: 8px 30px 8px 10px;
+    border-radius: 12px;
+    font-size: 15px;
+    border: 0px;
+    outline: none;
+    color: #FFF;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%) rotate(45deg);
+    font-size: 35px;
+    color: #FFF;
+}
+
+.text-stop-terrorism {
+    margin: 0px;
+    padding-top: 232px;
+    text-align: center;
+
+    color: #FFF;
+    text-shadow: 4px -1px 0px rgba(0, 0, 0, 0.25);
+    font-size: 77px;
+    font-weight: 700;
+    line-height: 144.187%;
+    letter-spacing: 6.16px;
+}
