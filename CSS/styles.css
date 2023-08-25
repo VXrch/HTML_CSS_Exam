@@ -9,12 +9,6 @@ body {
     padding: 0px;
 }
 
-.bottom-menu-container {
-    background-image: url(image2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .middle-menu-container {
     color: #FFF;
     background-color: #00445E;
@@ -22,34 +16,18 @@ body {
     padding-bottom: 14px;
 }
 
-/* .container-fluid {
-    color: #FFF;
-    padding: 0px;
-} */
-
-
-
-.text-anti-terrorist-center {
-    font-size: 15px;
-    margin-top: 25px;
-    margin-left: 32px;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    line-height: 166.188%;
-}
-
-
 .buttons-menu {
     margin-top: 34px;
     padding-left: 0px;
     text-align: center;
 }
+
 .buttons-menu li {
     list-style: none;
     display: inline-block;
     margin-right: 10px;
 }
+
 .buttons-menu li a {
     text-decoration: none;
 }
@@ -61,11 +39,12 @@ body {
     line-height: 166.188%;
 }
 
-.column-with-text{
+
+.column-with-text {
     display: flex;
 }
 
-.col-with-image-and-text{
+.col-with-image-and-text {
     text-align: center;
 }
 
@@ -92,12 +71,15 @@ body {
     background-color: transparent;
     cursor: pointer;
 }
-.search-container{
+
+.search-container {
     margin-top: 16px;
 }
+
+
 .text-stop-terrorism {
     justify-content: center;
-    padding: 312px 0px;
+    padding: 156px 0px 478px 0px;
     text-align: center;
     display: flex;
     color: #FFF;
@@ -105,4 +87,44 @@ body {
     font-size: 77px;
     font-weight: 700;
     letter-spacing: 6.16px;
+}
+
+.text-anti-terrorist-center {
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 32px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    line-height: 166.188%;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+
+.bottom-menu-container {
+    background-image: url(image2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -224px;
+
+}
+
+.bckgrnd-image-3 {
+    height: 600px;
+    background-image: url(image3.svg);
+    background-repeat: no-repeat;
+}
+
+.middle-part-container {
+    background-color: #9ECEFA;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.asdfasdfasdf {
+    display: inline-block;
+    width: 100%;
 }
