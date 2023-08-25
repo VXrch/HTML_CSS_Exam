@@ -1,68 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Front-end exam</title>
-    <link rel="stylesheet" href="CSS/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="CSS/styles.css">
-</head>
+    <link rel="stylesheet" href="CSS/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
 
-<body>
-    <div class="container-fluid">
-        <div class="top-menu-container">
-            <div class="middle-menu-container">
-                <div class="row">
-                    <div class="col-md-9 column-number-one">
-                        <div class="row">
-                            <div class="col-md-6 col-with-image-and-text">
-                                <div class="row">
-                                    <div class="col-md-4 column-with-logo">
-                                        <img src="CSS/logo.svg" alt="Logo">
-                                    </div>
-
-                                    <div class="col-md-8 column-with-text">
-                                        <p class="text-anti-terrorist-center">
-                                            ГРОМАДСЬКА ОРГАНІЗАЦІЯ<br>&laquo;АНТИТЕРОРИСТИЧНИЙ ЦЕНТР&raquo;
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 buttons-menu">
-
-                                <div class="col-3 but-in-menu">
-                                    <a href="#" class="but-in-menu">Про нас</a>
-                                </div>
-                                <div class="col-3 but-in-menu">
-                                    <a href="#" class="but-in-menu">Новини</a>
-                                </div>
-                                <div class="col-3 but-in-menu">
-                                    <a href="#" class="but-in-menu">Форум</a>
-                                </div>
-                                <div class="col-3 but-in-menu">
-                                    <a href="#" class="but-in-menu">Контакти</a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 column-number-two">
-                        <div class="search-container">
-                            <input type="text" class="search-input">
-                            <span class="search-icon">&#9906;</span>
-                        </div>
-                    </div>
-                </div>
+  <body>
+    <div class="bg-main">
+      <div class="container middle-menu-container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="col-with-image-and-text">
+              <div class="column-with-text">
+                <img src="CSS/logo.svg" alt="Logo" />
+                <p class="text-anti-terrorist-center">
+                  ГРОМАДСЬКА ОРГАНІЗАЦІЯ<br />&laquo;АНТИТЕРОРИСТИЧНИЙ
+                  ЦЕНТР&raquo;
+                </p>
+              </div>
             </div>
-        </div>
-        <div class="bottom-menu-container">
-            <div class="text-stop-terrorism">
-                ЗУПИНИМО<br>ТЕРОРИЗМ РАЗОМ
+          </div>
+          <nav class="col-md-5">
+            <ul class="buttons-menu">
+              <li class="but-in-menu">
+                <a href="#" class="but-in-menu">Про нас</a>
+              </li>
+              <li class="but-in-menu">
+                <a href="#" class="but-in-menu">Новини</a>
+              </li>
+              <li class="but-in-menu">
+                <a href="#" class="but-in-menu">Форум</a>
+              </li>
+              <li class="but-in-menu">
+                <a href="#" class="but-in-menu">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="col-md-3">
+            <div class="search-container">
+              <form method="post" action="#">
+                <input type="text" class="search-input" />
+                <button type="submit" class="search-icon">&#9906;</button>
+              </form>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</body>
-
+    <div class="bottom-menu-container">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="text-stop-terrorism">ЗУПИНИМО<br />ТЕРОРИЗМ РАЗОМ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
