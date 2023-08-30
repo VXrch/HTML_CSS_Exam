@@ -112,19 +112,51 @@ body {
 
 }
 
-.bckgrnd-image-3 {
+.block-with-bckgrnd-image {
     height: 600px;
     background-image: url(image3.svg);
     background-repeat: no-repeat;
+
+    padding-left: 24%;
+    padding-top: 6%;
+}
+
+.container-between {
+    height: 10px;
+    margin-top: 400px;
 }
 
 .middle-part-container {
-    background-color: #9ECEFA;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    padding: 0px;
 }
 
-.asdfasdfasdf {
-    display: inline-block;
+.white-background-block {
+    background-color: rgba(238, 238, 238, 0.5);
+    display: flex;
+    justify-content: right;
+    padding-top: 1%;
+    width: 76%;
+    height: 76%;
+}
+
+.orange-line {
+    border-top: 2px solid #EF6621;
+    border-right: 2px solid #EF6621;
+    margin: 0px;
+    width: 25%;
+    height: 45%;
+
+    z-index: 1;
+}
+
+.container-with-text-in-white-labe {
+    font-weight: 400;
+    line-height: 166.188%;
+    font-size: 20px;
+
     width: 100%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: -10%;
+    z-index: 2;
 }
