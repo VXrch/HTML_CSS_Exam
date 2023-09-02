@@ -109,11 +109,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px -224px;
-
 }
 
 .block-with-bckgrnd-image {
     height: 600px;
+    width: 80%;
     background-image: url(images/image3.svg);
     background-repeat: no-repeat;
 
@@ -241,4 +241,154 @@ body {
 
     font-weight: bold;
     font-size: 14px;
+}
+
+.bottom-menu-with-form {
+    display: block;
+    height: 20%;
+}
+
+.orange-line-3 {
+    border-top: 3px solid #EF6621;
+    border-left: 3px solid #EF6621;
+    margin: 0px;
+    width: 4%;
+    height: 20%;
+    z-index: 2;
+}
+
+
+.take-news-container {
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+
+
+.take-news-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px;
+    padding: 0;
+    margin-bottom: 2%;
+    height: 23%;
+}
+
+.take-news-column {
+    position: relative;
+    height: 100px;
+    padding: 0px;
+}
+
+.take-news-text {
+    padding-left: 2%;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115.187%;
+    letter-spacing: 0.15px;
+    z-index: 1;
+}
+
+.small-input-lable {
+    display: flex;
+    align-items: top;
+    width: 95%;
+    height: 100%;
+}
+
+.big-input-lable {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.lable-to-enter-info {
+    height: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.188%;
+}
+
+.take-more-news-form-1 {
+    display: flex;
+    justify-content: left;
+    height: 100%;
+    padding: 0px;
+}
+
+.take-more-news-form-2 {
+    display: flex;
+    justify-content: right;
+    height: 100%;
+    padding: 0px;
+}
+
+::placeholder {
+    opacity: 0.5;
+    padding-left: 16px;
+    font-size: 16px;
+}
+
+.take-more-news-form-3 {
+    margin: 0px;
+    padding: 0px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.lable-to-enter-info-2 {
+    height: 90px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.188%;
+}
+
+.take-news-submit-button {
+    background-color: #EF6621;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    cursor: pointer;
+    height: 60px;
+    width: 34%;
+}
+
+.take-news-submit-text {
+    color: #FFF;
+    margin: 0px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.188%;
+}
+
+.footer-background {
+    background-color: #002635;
+    color: #FFF;
+    padding: 4%;
+}
+
+.footer-navbar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-anti-terrorist-center-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.188%;
+}
+
+.footer-images {
+    padding: 10px;
+    text-decoration: none;
 }
